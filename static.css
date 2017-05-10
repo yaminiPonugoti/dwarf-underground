@@ -1,5 +1,10 @@
 body {
   font-family: 'Cinzel Decorative', cursive;
+  background: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 .header {
@@ -7,10 +12,10 @@ body {
   background: url('https://s-media-cache-ak0.pinimg.com/originals/13/b9/11/13b91109356b3808d8111bf6db8e40b2.jpg') no-repeat center center fixed;
   background-size: cover;
   color: rgba(255,255,255,.7);
+  margin-bottom: 30px;
 }
 
-.header h1, h2, h3, h4 {
-  font-family: 'Cinzel Decorative', cursive;
+.header h1, .header h2, .header h3, .header h4 {
   font-weight: 900;
 }
 
@@ -39,7 +44,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: white;
+  color: #CFB53B;
 }
 
 @media screen and (min-width: 40em) {
@@ -62,3 +67,52 @@ body {
   }
 }
 
+.avatar {
+  height: 80px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  height: 80px;
+  display: inline-block;
+  margin-top: -24px;
+}
+
+.author-info {
+  display: inline-block;
+  padding: 10px;
+}
+
+.author-info p {
+  margin: 0;
+  padding: 5px 0;
+  color: #666;
+}
+
+.article-title {
+  font-weight: 700;
+  color: #333;
+}
+
+.article-body {
+  margin-top: 30px;
+}
+
+.article-start {
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.interject {
+  font-size: 1.5em;
+  font-weight: 700;
+  border-left: 4px solid #CFB53B;
+  padding-left: 10px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.gold {
+  color: #CFB53B;
+}
